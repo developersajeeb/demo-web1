@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    ;
 }
 
 h1 {
@@ -15,7 +16,7 @@ p {
     color: white;
 }
 
-.btn{
+.btn {
     padding: 12px 18px;
     font-size: 16px;
     font-weight: 500;
@@ -28,7 +29,7 @@ p {
 
 /* Header */
 
-header{
+header {
     background-image: linear-gradient(0deg, rgb(0 0 0 / 90%), rgb(0 0 0 / 10%)), url(images/donation12.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -38,7 +39,7 @@ header{
 
 /* Section 1 */
 
-.do-tk h1 p{
+.do-tk h1 p {
     color: black;
 }
 
@@ -64,15 +65,52 @@ main {
     margin: 0 auto;
 }
 
-.amount-list{
-    
-}
-
-.amount-list ul{
+.amount-list ul {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
-.amount-list li{
+.amount-list li {
     list-style: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #606060;
+    padding: 30px 16px;
+    background: #f2f2f2;
+    border-radius: 4px;
+}
+
+.amount-list {
+    margin-bottom: 50px;
+}
+
+.amount-list li:hover {
+    color: #f55543;
+    border: 2px solid #f55543;
+    background: #ffedeb;
+    padding: 28px 14px;
+}
+
+.from-btn {
+    text-align: center;
+    margin-top: 70px;
+}
+
+form.taka input {
+    border: 0px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    font-size: 15px;
+    width: 61%;
+    margin-bottom: 18px;
+}
+
+form.taka {
+    text-align: center;
+    margin-top: 55px;
+}
+
+form.taka input:focus {
+    border: none;
 }
